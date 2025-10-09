@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"brug","path":"rooms/brug/brug.yy",},},
     {"id":{"name":"tycoon","path":"rooms/tycoon/tycoon.yy",},},
+    {"id":{"name":"Swater","path":"sprites/Swater/Swater.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
