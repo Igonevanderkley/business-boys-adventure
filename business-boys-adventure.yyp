@@ -35,12 +35,14 @@
   },
   "name":"business-boys-adventure",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"brug","path":"rooms/brug/brug.yy",},},
+    {"id":{"name":"tycoon","path":"rooms/tycoon/tycoon.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"tycoon","path":"rooms/tycoon/tycoon.yy",},},
+    {"roomId":{"name":"brug","path":"rooms/brug/brug.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
