@@ -1,74 +1,321 @@
 {
-  "$GMProject":"v1",
-  "%Name":"business-boys-adventure",
-  "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  "$GMProject": "v1",
+  "%Name": "business-boys-adventure",
+  "AudioGroups": [
+    {
+      "$GMAudioGroup": "",
+      "%Name": "audiogroup_default",
+      "name": "audiogroup_default",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
   ],
-  "configs":{
-    "children":[],
-    "name":"Default",
+  "configs": {
+    "children": [],
+    "name": "Default"
   },
-  "defaultScriptType":0,
-  "Folders":[
-    {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
+  "defaultScriptType": 0,
+  "Folders": [
+    {
+      "$GMFolder": "",
+      "%Name": "Animation Curves",
+      "folderPath": "folders/Animation Curves.yy",
+      "name": "Animation Curves",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Extensions",
+      "folderPath": "folders/Extensions.yy",
+      "name": "Extensions",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Fonts",
+      "folderPath": "folders/Fonts.yy",
+      "name": "Fonts",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Notes",
+      "folderPath": "folders/Notes.yy",
+      "name": "Notes",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Objects",
+      "folderPath": "folders/Objects.yy",
+      "name": "Objects",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Particle Systems",
+      "folderPath": "folders/Particle Systems.yy",
+      "name": "Particle Systems",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Paths",
+      "folderPath": "folders/Paths.yy",
+      "name": "Paths",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Rooms",
+      "folderPath": "folders/Rooms.yy",
+      "name": "Rooms",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Scripts",
+      "folderPath": "folders/Scripts.yy",
+      "name": "Scripts",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Sequences",
+      "folderPath": "folders/Sequences.yy",
+      "name": "Sequences",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Shaders",
+      "folderPath": "folders/Shaders.yy",
+      "name": "Shaders",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Sounds",
+      "folderPath": "folders/Sounds.yy",
+      "name": "Sounds",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Sprites",
+      "folderPath": "folders/Sprites.yy",
+      "name": "Sprites",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Tile Sets",
+      "folderPath": "folders/Tile Sets.yy",
+      "name": "Tile Sets",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Timelines",
+      "folderPath": "folders/Timelines.yy",
+      "name": "Timelines",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    }
   ],
-  "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
-  "isEcma":false,
-  "LibraryEmitters":[],
-  "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+  "ForcedPrefabProjectReferences": [],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2024.13.1.193"
   },
-  "name":"business-boys-adventure",
-  "resources":[
-    {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
-    {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
-    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
-    {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
-    {"id":{"name":"obj_questionPanel","path":"objects/obj_questionPanel/obj_questionPanel.yy",},},
-    {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},},
-    {"id":{"name":"brug","path":"rooms/brug/brug.yy",},},
-    {"id":{"name":"tycoon","path":"rooms/tycoon/tycoon.yy",},},
-    {"id":{"name":"sActiveCloud","path":"sprites/sActiveCloud/sActiveCloud.yy",},},
-    {"id":{"name":"sActiveOffice","path":"sprites/sActiveOffice/sActiveOffice.yy",},},
-    {"id":{"name":"sActiveRemote","path":"sprites/sActiveRemote/sActiveRemote.yy",},},
-    {"id":{"name":"sActiveSpam","path":"sprites/sActiveSpam/sActiveSpam.yy",},},
-    {"id":{"name":"sBlock","path":"sprites/sBlock/sBlock.yy",},},
-    {"id":{"name":"sDeskVL","path":"sprites/sDeskVL/sDeskVL.yy",},},
-    {"id":{"name":"sDeskVLcomp","path":"sprites/sDeskVLcomp/sDeskVLcomp.yy",},},
-    {"id":{"name":"sDeskVLmouse","path":"sprites/sDeskVLmouse/sDeskVLmouse.yy",},},
-    {"id":{"name":"sDeskVLpaper","path":"sprites/sDeskVLpaper/sDeskVLpaper.yy",},},
-    {"id":{"name":"sDeskVLprint","path":"sprites/sDeskVLprint/sDeskVLprint.yy",},},
-    {"id":{"name":"Sgeld","path":"sprites/Sgeld/Sgeld.yy",},},
-    {"id":{"name":"sInactiveCloud","path":"sprites/sInactiveCloud/sInactiveCloud.yy",},},
-    {"id":{"name":"sInactiveOffice","path":"sprites/sInactiveOffice/sInactiveOffice.yy",},},
-    {"id":{"name":"sInactiveRemote","path":"sprites/sInactiveRemote/sInactiveRemote.yy",},},
-    {"id":{"name":"sInactiveSpam","path":"sprites/sInactiveSpam/sInactiveSpam.yy",},},
-    {"id":{"name":"Sknop","path":"sprites/Sknop/Sknop.yy",},},
-    {"id":{"name":"Swater","path":"sprites/Swater/Swater.yy",},},
+  "name": "business-boys-adventure",
+  "resources": [
+    { "id": { "name": "obj_block", "path": "objects/obj_block/obj_block.yy" } },
+    {
+      "id": { "name": "obj_button", "path": "objects/obj_button/obj_button.yy" }
+    },
+    {
+      "id": {
+        "name": "obj_controller",
+        "path": "objects/obj_controller/obj_controller.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_manager",
+        "path": "objects/obj_manager/obj_manager.yy"
+      }
+    },
+
+    {
+      "id": {
+        "name": "obj_questionPanel",
+        "path": "objects/obj_questionPanel/obj_questionPanel.yy"
+      }
+    },
+
+    {
+      "id": {
+        "name": "obj_nextroom",
+        "path": "objects/obj_nextroom/obj_nextroom.yy"
+      }
+    },
+
+    { "id": { "name": "obj_ui", "path": "objects/obj_ui/obj_ui.yy" } },
+    {
+      "id": {
+        "name": "obj_upgrade",
+        "path": "objects/obj_upgrade/obj_upgrade.yy"
+      }
+    },
+    { "id": { "name": "brug", "path": "rooms/brug/brug.yy" } },
+    { "id": { "name": "tycoon", "path": "rooms/tycoon/tycoon.yy" } },
+    {
+      "id": {
+        "name": "sActiveCloud",
+        "path": "sprites/sActiveCloud/sActiveCloud.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sActiveOffice",
+        "path": "sprites/sActiveOffice/sActiveOffice.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sActiveRemote",
+        "path": "sprites/sActiveRemote/sActiveRemote.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sActiveSpam",
+        "path": "sprites/sActiveSpam/sActiveSpam.yy"
+      }
+    },
+    { "id": { "name": "sBlock", "path": "sprites/sBlock/sBlock.yy" } },
+    { "id": { "name": "sDeskVL", "path": "sprites/sDeskVL/sDeskVL.yy" } },
+    {
+      "id": {
+        "name": "sDeskVLcomp",
+        "path": "sprites/sDeskVLcomp/sDeskVLcomp.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sDeskVLmouse",
+        "path": "sprites/sDeskVLmouse/sDeskVLmouse.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sDeskVLpaper",
+        "path": "sprites/sDeskVLpaper/sDeskVLpaper.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sDeskVLprint",
+        "path": "sprites/sDeskVLprint/sDeskVLprint.yy"
+      }
+    },
+    { "id": { "name": "sDeskVR", "path": "sprites/sDeskVR/sDeskVR.yy" } },
+    {
+      "id": {
+        "name": "sDeskVRcomp",
+        "path": "sprites/sDeskVRcomp/sDeskVRcomp.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sDeskVRmouse",
+        "path": "sprites/sDeskVRmouse/sDeskVRmouse.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sDeskVRpaper",
+        "path": "sprites/sDeskVRpaper/sDeskVRpaper.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sDeskVRprint",
+        "path": "sprites/sDeskVRprint/sDeskVRprint.yy"
+      }
+    },
+    { "id": { "name": "Sgeld", "path": "sprites/Sgeld/Sgeld.yy" } },
+    {
+      "id": {
+        "name": "sInactiveCloud",
+        "path": "sprites/sInactiveCloud/sInactiveCloud.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sInactiveOffice",
+        "path": "sprites/sInactiveOffice/sInactiveOffice.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sInactiveRemote",
+        "path": "sprites/sInactiveRemote/sInactiveRemote.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sInactiveSpam",
+        "path": "sprites/sInactiveSpam/sInactiveSpam.yy"
+      }
+    },
+    { "id": { "name": "Sknop", "path": "sprites/Sknop/Sknop.yy" } },
+    { "id": { "name": "Spijl", "path": "sprites/Spijl/Spijl.yy" } },
+    { "id": { "name": "Supgrade", "path": "sprites/Supgrade/Supgrade.yy" } },
+    { "id": { "name": "Swater", "path": "sprites/Swater/Swater.yy" } }
   ],
-  "resourceType":"GMProject",
-  "resourceVersion":"2.0",
-  "RoomOrderNodes":[
-    {"roomId":{"name":"brug","path":"rooms/brug/brug.yy",},},
-    {"roomId":{"name":"tycoon","path":"rooms/tycoon/tycoon.yy",},},
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [
+    { "roomId": { "name": "brug", "path": "rooms/brug/brug.yy" } },
+    { "roomId": { "name": "tycoon", "path": "rooms/tycoon/tycoon.yy" } }
   ],
-  "templateType":"game",
-  "TextureGroups":[
-    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
-  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {
+      "$GMTextureGroup": "",
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": true,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ]
 }
