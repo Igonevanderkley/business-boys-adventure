@@ -39,6 +39,7 @@
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
+    {"id":{"name":"obj_questionPanel","path":"objects/obj_questionPanel/obj_questionPanel.yy",},},
     {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},},
     {"id":{"name":"brug","path":"rooms/brug/brug.yy",},},
     {"id":{"name":"tycoon","path":"rooms/tycoon/tycoon.yy",},},
