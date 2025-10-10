@@ -1,0 +1,32 @@
+if (!answered) {
+    // Check if player pressed key 1, 2, or 3
+    if (keyboard_check_pressed(ord("1"))) answer_question(0);
+    if (keyboard_check_pressed(ord("2"))) answer_question(1);
+    if (keyboard_check_pressed(ord("3"))) answer_question(2);
+}
+
+
+function answer_question(choice) {
+    var q = questions[current_question];
+    answered = true; // stop further input
+
+    if (choice == q[2]) {
+        result_message = "Correct!";
+        
+        // Tell obj_manager to add a block
+        with (obj_manager) {
+            var block_x = bridge_x + blocks_placed * block_width;
+            instance_create_depth(block_x, bridge_y, 0, obj_block);
+            blocks_placed += 1;
+        }
+    } else {
+        result_message = "Wrong!";
+    }
+
+    // Start a timer to move to next question after 1.5 seconds
+    alarm[0] = 90; // 1.5 second delay at 60fps
+
+
+}
+
+	
