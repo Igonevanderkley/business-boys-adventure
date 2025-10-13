@@ -8,5 +8,5 @@ if (obj_controller.money >= cost) {
     }
 	
     amount_bought += 1;
-    cost = round(cost * 1.2);
+    cost = round(cost * 1.15);
 }
