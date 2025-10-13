@@ -1,4 +1,4 @@
-// vragen data array
+ // vragen data array
 // de volgorde is "vraag", "antwoorden/opties", "juiste antwoord en dat is het de array key dus 0,1,2"
 
 questions = [

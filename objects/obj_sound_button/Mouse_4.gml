@@ -1,4 +1,5 @@
 // Left Pressed Event
+/*
 if (sound_on) {
     // Zet geluid uit
     sound_on = false;
@@ -10,3 +11,4 @@ if (sound_on) {
     sprite_index = spr_sound_on;
     audio_master_gain(0, 1, 0); // alle geluid aan
 }
+*/
