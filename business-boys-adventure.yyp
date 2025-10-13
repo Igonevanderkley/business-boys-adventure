@@ -72,11 +72,17 @@
     {"id":{"name":"sInactiveSpam","path":"sprites/sInactiveSpam/sInactiveSpam.yy",},},
     {"id":{"name":"Sknop","path":"sprites/Sknop/Sknop.yy",},},
     {"id":{"name":"Spijl","path":"sprites/Spijl/Spijl.yy",},},
+    {"id":{"name":"spr_sound_off","path":"sprites/spr_sound_off/spr_sound_off.yy",},},
+    {"id":{"name":"spr_sound_on","path":"sprites/spr_sound_on/spr_sound_on.yy",},},
     {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"Srebirth","path":"sprites/Srebirth/Srebirth.yy",},},
     {"id":{"name":"sS","path":"sprites/sS/sS.yy",},},
     {"id":{"name":"sSound_off","path":"sprites/sSound_off/sSound_off.yy",},},
     {"id":{"name":"Supgrade","path":"sprites/Supgrade/Supgrade.yy",},},
+=======
+    {"id":{"name":"sStart_Game","path":"sprites/sStart_Game/sStart_Game.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"Swater","path":"sprites/Swater/Swater.yy",},},
   ],
   "resourceType":"GMProject",
