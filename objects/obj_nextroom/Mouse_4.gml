@@ -1,1 +1,1 @@
-room_goto(tycoon);
+room_goto(tycoon);   
