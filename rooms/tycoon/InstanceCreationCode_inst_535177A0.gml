@@ -1,4 +1,4 @@
 upgrade_type = "second";
-cost = 450;
-bonus = 65;
+cost = 1200;
+bonus = 150;
 amount_bought = 0;
