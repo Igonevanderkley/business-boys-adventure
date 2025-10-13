@@ -20,8 +20,17 @@ function answer_question(choice) {
             blocks_placed += 1;
         }
     } else {
-        result_message = "Wrong!";
-    }
+        result_message = "Wrong! Bridge collapsed! Start over.";
+
+
+    // Reset the bridge
+    with (obj_manager) {
+            with (obj_block) instance_destroy();
+            blocks_placed = 0;
+        }
+		
+	current_question = 0;
+   }
 
     // Start a timer to move to next question after 1.5 seconds
     alarm[0] = 90; // 1.5 second delay at 60fps

@@ -10,6 +10,7 @@ var panel_height = 160;
 var panel_x = (scr_w / 2) - (panel_width / 2);
 var panel_y = scr_h - panel_height - 20; 
 
+draw_set_font(fnt_panel);
 draw_set_color(c_white);
 draw_rectangle(panel_x, panel_y, panel_x + panel_width, panel_y + panel_height, false);
 
@@ -23,6 +24,6 @@ for (var i = 0; i < array_length(q[1]); i++) {
 	
 draw_text(panel_x + 20, panel_y + panel_height - 20, "Press 1, 2, 3 or 4 to answer");
 
-if (result_message != "") {
-    draw_text(panel_x + panel_width - 120, panel_y + 10, result_message);
-}
+//if (result_message != "") {
+  //  draw_text(panel_x + panel_width - 120, panel_y + 10, result_message);
+//}

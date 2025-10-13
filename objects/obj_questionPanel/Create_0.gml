@@ -1,4 +1,6 @@
- // vragen data array
+ 
+ 
+// vragen data array
 // de volgorde is "vraag", "antwoorden/opties", "juiste antwoord en dat is het de array key dus 0,1,2"
 
 questions = [
@@ -8,7 +10,7 @@ questions = [
 	["Waar is BI voor?",["Data analyse", "HR taken", "Sales", "Printen"], 0],
 	["Waar staat ERP voor?",["Enterprise Reevaluation Planning", "Enterprise Resource Planning", "Enterprise Resource Product", "Enterprise Reevaluation Product"], 1],
 	["Wat kan je met ERP software doen?",["Emails versturen", "Graphics designen", "Bedrijfsprocessen managen", "Hyperlinks vastleggen"], 2],
-	["Wat is géén Business IT oplossing?",["Cloud omgeving", "Software implementaties", "Bugfixes", "DaaS (Devices as a Service)"], 2],
+	["Wat is geen Business IT oplossing?",["Cloud omgeving", "Software implementaties", "Bugfixes", "DaaS (Devices as a Service)"], 2],
 ];
 
 current_question = 0;
