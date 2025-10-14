@@ -16,7 +16,9 @@ function answer_question(choice) {
         // Tell obj_manager to add a block
         with (obj_manager) {
             var block_x = bridge_x + blocks_placed * block_width;
-            instance_create_depth(block_x, bridge_y, 0, obj_block);
+			var new_block = instance_create_depth(block_x, bridge_y, 0, obj_block);
+			new_block.sprite_index = block_sprites[blocks_placed];
+ 
             blocks_placed += 1;
         }
     } else {
@@ -33,7 +35,7 @@ function answer_question(choice) {
    }
 
     // Start a timer to move to next question after 1.5 seconds
-    alarm[0] = 90; // 1.5 second delay at 60fps
+    alarm[0] = 30; // 1.5 second delay at 60fps
 
 
 }

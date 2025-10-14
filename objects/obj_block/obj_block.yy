@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBlock",
-    "path":"sprites/sBlock/sBlock.yy",
+    "name":"sBridgeBlock1",
+    "path":"sprites/sBridgeBlock1/sBridgeBlock1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

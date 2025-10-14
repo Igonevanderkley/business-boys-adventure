@@ -5,7 +5,6 @@
     {"name":"obj_block","order":1,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_manager","order":2,"path":"objects/obj_manager/obj_manager.yy",},
     {"name":"obj_questionPanel","order":3,"path":"objects/obj_questionPanel/obj_questionPanel.yy",},
-    {"name":"sBlock","order":1,"path":"sprites/sBlock/sBlock.yy",},
     {"name":"sBridgeBlock1","order":4,"path":"sprites/sBridgeBlock1/sBridgeBlock1.yy",},
     {"name":"sBridgeBlock2","order":8,"path":"sprites/sBridgeBlock2/sBridgeBlock2.yy",},
     {"name":"sBridgeBlock3","order":5,"path":"sprites/sBridgeBlock3/sBridgeBlock3.yy",},
