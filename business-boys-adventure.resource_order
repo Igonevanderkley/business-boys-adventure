@@ -3,8 +3,12 @@
   "ResourceOrderSettings":[
     {"name":"fnt_panel","order":1,"path":"fonts/fnt_panel/fnt_panel.yy",},
     {"name":"obj_block","order":1,"path":"objects/obj_block/obj_block.yy",},
+    {"name":"obj_business_1","order":4,"path":"objects/obj_business_1/obj_business_1.yy",},
+    {"name":"obj_business_2","order":5,"path":"objects/obj_business_2/obj_business_2.yy",},
     {"name":"obj_manager","order":2,"path":"objects/obj_manager/obj_manager.yy",},
     {"name":"obj_questionPanel","order":3,"path":"objects/obj_questionPanel/obj_questionPanel.yy",},
+    {"name":"business_2","order":1,"path":"sounds/business_2/business_2.yy",},
+    {"name":"snd_business_2","order":1,"path":"sounds/snd_business_2/snd_business_2.yy",},
     {"name":"sBridgeBlock1","order":4,"path":"sprites/sBridgeBlock1/sBridgeBlock1.yy",},
     {"name":"sBridgeBlock2","order":8,"path":"sprites/sBridgeBlock2/sBridgeBlock2.yy",},
     {"name":"sBridgeBlock3","order":5,"path":"sprites/sBridgeBlock3/sBridgeBlock3.yy",},
@@ -13,5 +17,6 @@
     {"name":"sBridgeBlock6","order":6,"path":"sprites/sBridgeBlock6/sBridgeBlock6.yy",},
     {"name":"sBridgeBlock7","order":3,"path":"sprites/sBridgeBlock7/sBridgeBlock7.yy",},
     {"name":"sSign","order":9,"path":"sprites/sSign/sSign.yy",},
+    {"name":"sTycoonBg","order":10,"path":"sprites/sTycoonBg/sTycoonBg.yy",},
   ],
 }
