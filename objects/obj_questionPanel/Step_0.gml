@@ -15,11 +15,13 @@ function answer_question(choice) {
         
         // Tell obj_manager to add a block
         with (obj_manager) {
-            var block_x = bridge_x + blocks_placed * block_width;
-			var new_block = instance_create_depth(block_x, bridge_y, 0, obj_block);
-			new_block.sprite_index = block_sprites[blocks_placed];
+			if (blocks_placed < array_length(block_sprites)) {
+				var block_x = bridge_x + blocks_placed * block_width;
+				var new_block = instance_create_depth(block_x, bridge_y, 0, obj_block);
+				new_block.sprite_index = block_sprites[blocks_placed];
  
-            blocks_placed += 1;
+				blocks_placed += 1;
+			}
         }
     } else {
         result_message = "Wrong! Bridge collapsed! Start over.";
