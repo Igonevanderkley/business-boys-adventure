@@ -17,5 +17,6 @@
     {"name":"sBridgeBlock6","order":6,"path":"sprites/sBridgeBlock6/sBridgeBlock6.yy",},
     {"name":"sBridgeBlock7","order":3,"path":"sprites/sBridgeBlock7/sBridgeBlock7.yy",},
     {"name":"sSign","order":9,"path":"sprites/sSign/sSign.yy",},
+    {"name":"sTycoonBg","order":10,"path":"sprites/sTycoonBg/sTycoonBg.yy",},
   ],
 }
