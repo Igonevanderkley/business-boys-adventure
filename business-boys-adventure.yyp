@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":1,
+  "defaultScriptType":0,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -38,8 +38,6 @@
     {"id":{"name":"fnt_large_thick","path":"fonts/fnt_large_thick/fnt_large_thick.yy",},},
     {"id":{"name":"fnt_panel","path":"fonts/fnt_panel/fnt_panel.yy",},},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
-    {"id":{"name":"obj_business_1","path":"objects/obj_business_1/obj_business_1.yy",},},
-    {"id":{"name":"obj_business_2","path":"objects/obj_business_2/obj_business_2.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
@@ -52,12 +50,6 @@
     {"id":{"name":"brug","path":"rooms/brug/brug.yy",},},
     {"id":{"name":"StartPagina","path":"rooms/StartPagina/StartPagina.yy",},},
     {"id":{"name":"tycoon","path":"rooms/tycoon/tycoon.yy",},},
-<<<<<<< Updated upstream
-=======
-    {"id":{"name":"snd_business_1","path":"sounds/snd_business_1/snd_business_1.yy",},},
-    {"id":{"name":"snd_business_2","path":"sounds/snd_business_2/snd_business_2.yy",},},
-    {"id":{"name":"sActiveAuto","path":"sprites/sActiveAuto/sActiveAuto.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"sActiveCloud","path":"sprites/sActiveCloud/sActiveCloud.yy",},},
     {"id":{"name":"sActiveOffice","path":"sprites/sActiveOffice/sActiveOffice.yy",},},
     {"id":{"name":"sActiveRemote","path":"sprites/sActiveRemote/sActiveRemote.yy",},},
