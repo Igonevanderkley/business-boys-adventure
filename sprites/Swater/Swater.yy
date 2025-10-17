@@ -19,7 +19,7 @@
   "height":768,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d2088b70-0997-4a6f-a9f1-d8802d1f6b14","blendMode":0,"displayName":"default","isLocked":false,"name":"d2088b70-0997-4a6f-a9f1-d8802d1f6b14","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d2088b70-0997-4a6f-a9f1-d8802d1f6b14","blendMode":0,"displayName":"default","isLocked":false,"name":"d2088b70-0997-4a6f-a9f1-d8802d1f6b14","opacity":51.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Swater",
   "nineSlice":null,

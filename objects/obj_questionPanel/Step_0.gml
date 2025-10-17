@@ -16,24 +16,27 @@ function answer_question(choice) {
         // Tell obj_manager to add a block
         with (obj_manager) {
             var block_x = bridge_x + blocks_placed * block_width;
-            instance_create_depth(block_x, bridge_y, 0, obj_block);
+			var new_block = instance_create_depth(block_x, bridge_y, 0, obj_block);
+			new_block.sprite_index = block_sprites[blocks_placed];
+ 
             blocks_placed += 1;
         }
     } else {
-        result_message = "Wrong! Bridge collapsed! Start over.";
+   result_message = "Wrong! Bridge collapsed!";
 
+// Trigger collapse for all blocks
+with (obj_block) {
+    is_collapsing = true;
+    rotation_speed = random_range(-10, 10); // spin randomly
+}
 
-    // Reset the bridge
-    with (obj_manager) {
-            with (obj_block) instance_destroy();
-            blocks_placed = 0;
-        }
-		
-	current_question = 0;
+// Reset question index
+current_question = 0;
+
    }
 
     // Start a timer to move to next question after 1.5 seconds
-    alarm[0] = 90; // 1.5 second delay at 60fps
+    alarm[0] = 30; // 1.5 second delay at 60fps
 
 
 }
