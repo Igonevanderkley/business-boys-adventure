@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sound_button",
+  "%Name":"obj_start_button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_sound_button",
+  "name":"obj_start_button",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSound_on",
-    "path":"sprites/sSound_on/sSound_on.yy",
+    "name":"sStart_button",
+    "path":"sprites/sStart_button/sStart_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

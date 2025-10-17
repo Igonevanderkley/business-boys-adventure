@@ -5,6 +5,8 @@
     {"name":"obj_block","order":1,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_manager","order":2,"path":"objects/obj_manager/obj_manager.yy",},
     {"name":"obj_questionPanel","order":3,"path":"objects/obj_questionPanel/obj_questionPanel.yy",},
+    {"name":"obj_start_button","order":5,"path":"objects/obj_start_button/obj_start_button.yy",},
     {"name":"sBlock","order":1,"path":"sprites/sBlock/sBlock.yy",},
+    {"name":"sStart_button","order":2,"path":"sprites/sStart_button/sStart_button.yy",},
   ],
 }
