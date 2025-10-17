@@ -93,7 +93,6 @@
     {"id":{"name":"sStart_button","path":"sprites/sStart_button/sStart_button.yy",},},
     {"id":{"name":"sS","path":"sprites/sS/sS.yy",},},
     {"id":{"name":"sSign","path":"sprites/sSign/sSign.yy",},},
-    {"id":{"name":"sSound_off","path":"sprites/sSound_off/sSound_off.yy",},},
     {"id":{"name":"sTycoonBg","path":"sprites/sTycoonBg/sTycoonBg.yy",},},
     {"id":{"name":"Supgrade","path":"sprites/Supgrade/Supgrade.yy",},},
     {"id":{"name":"Swater","path":"sprites/Swater/Swater.yy",},},
