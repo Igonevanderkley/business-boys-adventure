@@ -32,6 +32,7 @@
     {"name":"inst_4CB119B5","path":"rooms/tycoon/tycoon.yy",},
     {"name":"inst_6644BED0","path":"rooms/tycoon/tycoon.yy",},
     {"name":"inst_1EE38A70","path":"rooms/tycoon/tycoon.yy",},
+    {"name":"inst_18DBF1F3","path":"rooms/tycoon/tycoon.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -62,6 +63,7 @@
         {"$GMRInstance":"v2","%Name":"inst_4CB119B5","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4CB119B5","objectId":{"name":"obj_deskVR","path":"objects/obj_deskVR/obj_deskVR.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":3.0,"x":320.0,"y":416.0,},
         {"$GMRInstance":"v2","%Name":"inst_6644BED0","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6644BED0","objectId":{"name":"obj_deskVL","path":"objects/obj_deskVL/obj_deskVL.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":3.0,"x":160.0,"y":160.0,},
         {"$GMRInstance":"v2","%Name":"inst_1EE38A70","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EE38A70","objectId":{"name":"obj_deskVR","path":"objects/obj_deskVR/obj_deskVR.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":3.0,"x":320.0,"y":160.0,},
+        {"$GMRInstance":"v2","%Name":"inst_18DBF1F3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18DBF1F3","objectId":{"name":"obj_sound_button","path":"objects/obj_sound_button/obj_sound_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.26315787,"scaleY":0.26315787,"x":1184.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"sTycoonBg","path":"sprites/sTycoonBg/sTycoonBg.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
