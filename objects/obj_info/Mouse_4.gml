@@ -1,0 +1,1 @@
+show_message("Zodra je op Start Game klikt, begint het spel. Je ziet een scherm met meerkeuzevragen. Voor elk goed antwoord wordt een stukje van de brug gebouwd. Als je alle vragen goed beantwoordt, ga je door naar het tweede deel van het spel: het tycoon gedeelte.")
