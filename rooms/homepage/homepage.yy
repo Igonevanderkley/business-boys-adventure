@@ -1,14 +1,15 @@
 {
   "$GMRoom":"v1",
-  "%Name":"StartPagina",
+  "%Name":"homepage",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_2825309A","path":"rooms/StartPagina/StartPagina.yy",},
-    {"name":"inst_66486201","path":"rooms/StartPagina/StartPagina.yy",},
-    {"name":"inst_214FAA57","path":"rooms/StartPagina/StartPagina.yy",},
+    {"name":"inst_2825309A","path":"rooms/homepage/homepage.yy",},
+    {"name":"inst_66486201","path":"rooms/homepage/homepage.yy",},
+    {"name":"inst_214FAA57","path":"rooms/homepage/homepage.yy",},
+    {"name":"inst_8FCD340","path":"rooms/homepage/homepage.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,11 +19,12 @@
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_2825309A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2825309A","objectId":{"name":"obj_sound_button","path":"objects/obj_sound_button/obj_sound_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.26315796,"scaleY":0.26315787,"x":96.0,"y":576.0,},
         {"$GMRInstance":"v2","%Name":"inst_66486201","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66486201","objectId":{"name":"obj_start_button","path":"objects/obj_start_button/obj_start_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1666666,"scaleY":1.1666666,"x":448.0,"y":192.0,},
+        {"$GMRInstance":"v2","%Name":"inst_8FCD340","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_8FCD340","objectId":{"name":"obj_business_1","path":"objects/obj_business_1/obj_business_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":64.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":60.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Swater","path":"sprites/Swater/Swater.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"StartPagina",
+  "name":"homepage",
   "parent":{
     "name":"business-boys-adventure",
     "path":"business-boys-adventure.yyp",
