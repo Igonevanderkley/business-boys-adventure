@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_nextroom",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_bord",
+  "eventList":[],
   "managed":true,
-  "name":"obj_nextroom",
+  "name":"obj_bord",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spijl",
-    "path":"sprites/Spijl/Spijl.yy",
+    "name":"Sbord",
+    "path":"sprites/Sbord/Sbord.yy",
   },
   "spriteMaskId":null,
   "visible":true,
