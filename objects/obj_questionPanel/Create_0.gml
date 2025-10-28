@@ -16,3 +16,4 @@ questions = [
 current_question = 0;
 answered = false;
 result_message = "";
+wrong_reset = false;

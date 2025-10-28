@@ -1,52 +1,44 @@
-// Step Event
 if (!answered) {
     if (keyboard_check_pressed(ord("1"))) answer_question(0);
     if (keyboard_check_pressed(ord("2"))) answer_question(1);
     if (keyboard_check_pressed(ord("3"))) answer_question(2);
-    if (keyboard_check_pressed(ord("4"))) answer_question(3);
+	if (keyboard_check_pressed(ord("4"))) answer_question(3);
 }
+
 
 function answer_question(choice) {
     var q = questions[current_question];
     answered = true; // stop further input
 
-    // Add money reward
-    with (obj_controller) {
-        money += 10;
-    }
-
     if (choice == q[2]) {
-        result_message = "Heel goed!";
+        result_message = "Correct!";
         
-        // Add a new bridge block (only if within range)
+        // Tell obj_manager to add a block
         with (obj_manager) {
-            if (blocks_placed < array_length(block_sprites)) {
-                var block_x = bridge_x + blocks_placed * block_width;
-                var new_block = instance_create_depth(block_x, bridge_y, 0, obj_block);
-                new_block.sprite_index = block_sprites[blocks_placed];
-                blocks_placed += 1;
-            } else {
-                show_debug_message("De brug is compleet!");
-            }
+            var block_x = bridge_x + blocks_placed * block_width;
+			var new_block = instance_create_depth(block_x, bridge_y, 0, obj_block);
+			new_block.sprite_index = block_sprites[blocks_placed];
+ 
+            blocks_placed += 1;
         }
-
     } else {
-        // Wrong answer
-        result_message = "Oei, dat klopt niet.. Begin opnieuw!";
+   result_message = "Wrong! Bridge collapsed!";
 
-        // Collapse all blocks
-        with (obj_block) {
-            is_collapsing = true;
-            rotation_speed = random_range(-10, 10);
-        }
-
-        // Reset quiz
-        current_question = 0;
-        with (obj_manager) {
-            blocks_placed = 0; // reset bridge if needed
-        }
-    }
-
-    // Move to next question after delay (1.5 sec @ 60 FPS)
-    alarm[0] = 10; // 90 frames = 1.5s if 60fps
+// Trigger collapse for all blocks
+with (obj_block) {
+    is_collapsing = true;
+    rotation_speed = random_range(-10, 10); // spin randomly
 }
+
+// Reset question index
+current_question = 0;
+
+   }
+
+    // Start a timer to move to next question after 1.5 seconds
+    alarm[0] = 30; // 1.5 second delay at 60fps
+
+
+}
+
+	

@@ -1,18 +1,12 @@
+// Reset input and messages
+answered = false;
+result_message = "";
 
-// Move to next question
-if (current_question < array_length(questions) - 1) {
-    current_question++;
-    answered = false; // allow next answer
-} else {
-    // Quiz complete
-    result_message = "Nice! Nu kan Business Boy naar zijn nieuwe bedrijf!";
-	questions = visible = false;
-    
-    // Make the "Next Room" button visible
-    with (obj_nextroom) {
-        visible = true;
-    }
+// Move to the next question
+current_question++;
 
-    // Optional: stop accepting input
-    answered = true;
+// Check if we've reached the end
+if (current_question >= array_length(questions)) {
+    show_message("All questions answered!");
+    room_goto(tycoon); 
 }
