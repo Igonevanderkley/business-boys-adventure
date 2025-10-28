@@ -1,0 +1,9 @@
+text = "";
+color = c_white;
+visible = false;
+timer = 60;        
+sprite_index = sMessage;  
+image_index = 0;
+image_speed = 0;
+x = display_get_gui_width()/2;
+y = display_get_gui_height()/3;

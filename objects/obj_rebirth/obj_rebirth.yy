@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Srebirth",
-    "path":"sprites/Srebirth/Srebirth.yy",
+    "name":"sRebirth",
+    "path":"sprites/sRebirth/sRebirth.yy",
   },
   "spriteMaskId":null,
   "visible":true,

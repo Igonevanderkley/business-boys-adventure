@@ -6,11 +6,16 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_53332335","path":"rooms/brug/brug.yy",},
     {"name":"inst_6C4892BA","path":"rooms/brug/brug.yy",},
     {"name":"inst_2198AD4E","path":"rooms/brug/brug.yy",},
+    {"name":"inst_53332335","path":"rooms/brug/brug.yy",},
     {"name":"inst_7E4DA481","path":"rooms/brug/brug.yy",},
     {"name":"inst_4B44B616","path":"rooms/brug/brug.yy",},
+<<<<<<< HEAD
+    {"name":"inst_20E5943B","path":"rooms/brug/brug.yy",},
+=======
+    {"name":"inst_31780094","path":"rooms/brug/brug.yy",},
+>>>>>>> c5ffb10db660f991ea708d9dfbee2af3f55db378
   ],
   "isDnd":false,
   "layers":[
@@ -18,6 +23,11 @@
         {"$GMRInstance":"v2","%Name":"inst_53332335","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53332335","objectId":{"name":"obj_nextroom","path":"objects/obj_nextroom/obj_nextroom.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5733333,"scaleY":0.5733333,"x":544.0,"y":448.0,},
         {"$GMRInstance":"v2","%Name":"inst_7E4DA481","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E4DA481","objectId":{"name":"obj_business_1","path":"objects/obj_business_1/obj_business_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":672.0,},
         {"$GMRInstance":"v2","%Name":"inst_4B44B616","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B44B616","objectId":{"name":"obj_sound_button","path":"objects/obj_sound_button/obj_sound_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.21052632,"scaleY":0.21052633,"x":1024.0,"y":0.0,},
+<<<<<<< HEAD
+        {"$GMRInstance":"v2","%Name":"inst_20E5943B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20E5943B","objectId":{"name":"obj_message","path":"objects/obj_message/obj_message.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":-64.0,},
+=======
+        {"$GMRInstance":"v2","%Name":"inst_31780094","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31780094","objectId":{"name":"obj_hint","path":"objects/obj_hint/obj_hint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.5,"x":1152.0,"y":640.0,},
+>>>>>>> c5ffb10db660f991ea708d9dfbee2af3f55db378
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_6C4892BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C4892BA","objectId":{"name":"obj_questionPanel","path":"objects/obj_questionPanel/obj_questionPanel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":640.0,},

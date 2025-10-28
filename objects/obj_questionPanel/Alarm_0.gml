@@ -1,12 +1,21 @@
-// Reset input and messages
-answered = false;
-result_message = "";
+if (current_question < array_length(questions) - 1) {
+    current_question += 1;
+    answered = false;
+} else {
+    // Quiz complete
+    answered = true;
 
-// Move to the next question
-current_question++;
+    with (obj_message) {
+        text = "Het is je gelukt! Nu kan je door naar de tycoon!";
+        color = c_blue;
+        x = obj_questionPanel.panel_x + obj_questionPanel.panel_width / 2;
+        y = obj_questionPanel.panel_y + obj_questionPanel.panel_height / 3;
+        timer = 500;
+        alpha = 0;
+        state = "fade_in";
+        visible = true;
+    }
 
-// Check if we've reached the end
-if (current_question >= array_length(questions)) {
-    show_message("All questions answered!");
-    room_goto(tycoon); 
+    // Show next room button
+    with (obj_nextroom) visible = true;
 }

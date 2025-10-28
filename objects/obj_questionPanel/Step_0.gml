@@ -1,10 +1,10 @@
-if (!answered) {
+
+if (!answered && current_question < array_length(questions)) {
     if (keyboard_check_pressed(ord("1"))) answer_question(0);
     if (keyboard_check_pressed(ord("2"))) answer_question(1);
     if (keyboard_check_pressed(ord("3"))) answer_question(2);
 	if (keyboard_check_pressed(ord("4"))) answer_question(3);
 }
-
 
 function answer_question(choice) {
     var q = questions[current_question];
@@ -37,7 +37,6 @@ current_question = 0;
 
     // Start a timer to move to next question after 1.5 seconds
     alarm[0] = 30; // 1.5 second delay at 60fps
-
 
 }
 
