@@ -6,8 +6,8 @@ if (visible) {
     var text_h = string_height(text);
 
     // Padding around text
-    var pad_x = 40;
-    var pad_y = 40; // increased vertical padding for better fit
+    var pad_x = 50;
+    var pad_y = 100; // increased vertical padding for better fit
 
     var box_w = text_w + pad_x * 2;
     var box_h = text_h + pad_y * 2;
