@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mannetje1",
+  "%Name":"obj_mannetje3",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mannetje1",
+  "name":"obj_mannetje3",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sMannetje1",
-    "path":"sprites/sMannetje1/sMannetje1.yy",
+    "name":"sBusiness_Boy",
+    "path":"sprites/sBusiness_Boy/sBusiness_Boy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

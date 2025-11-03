@@ -26,8 +26,14 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"sWall",
+    "path":"sprites/sWall/sWall.yy",
+  },
+  "spriteMaskId":{
+    "name":"sWall",
+    "path":"sprites/sWall/sWall.yy",
+  },
   "visible":true,
 }
