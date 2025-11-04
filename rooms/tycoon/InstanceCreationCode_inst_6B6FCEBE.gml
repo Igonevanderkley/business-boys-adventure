@@ -1,4 +1,0 @@
-upgrade_type = "second";
-cost = 450;
-bonus = 65;
-amount_bought = 0;
