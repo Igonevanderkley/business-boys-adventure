@@ -32,9 +32,9 @@ if (obj_controller.money >= cost) {
                 case 3: sprite_index = sDeskVLmouse; break;
                 case 4: sprite_index = sDeskVLprint; break;
             }
-       }
-
+     
+			}
+		}
+	}
         sprite_changed = true;
-    }
-}
 }
