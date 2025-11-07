@@ -69,7 +69,7 @@
     {"id":{"name":"obj_volume_slider","path":"objects/obj_volume_slider/obj_volume_slider.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"brug","path":"rooms/brug/brug.yy",},},
-    {"id":{"name":"homepage","path":"rooms/homepage/homepage.yy",},},
+    {"id":{"name":"homee","path":"rooms/homee/homee.yy",},},
     {"id":{"name":"tycoon","path":"rooms/tycoon/tycoon.yy",},},
     {"id":{"name":"scr_answer_question","path":"scripts/scr_answer_question/scr_answer_question.yy",},},
     {"id":{"name":"business_2","path":"sounds/business_2/business_2.yy",},},
@@ -130,7 +130,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"homepage","path":"rooms/homepage/homepage.yy",},},
+    {"roomId":{"name":"homee","path":"rooms/homee/homee.yy",},},
     {"roomId":{"name":"brug","path":"rooms/brug/brug.yy",},},
     {"roomId":{"name":"tycoon","path":"rooms/tycoon/tycoon.yy",},},
   ],

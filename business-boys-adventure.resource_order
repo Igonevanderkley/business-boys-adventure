@@ -26,6 +26,7 @@
     {"name":"obj_uibox","order":20,"path":"objects/obj_uibox/obj_uibox.yy",},
     {"name":"obj_volume_slider","order":11,"path":"objects/obj_volume_slider/obj_volume_slider.yy",},
     {"name":"obj_wall","order":14,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"homee","order":2,"path":"rooms/homee/homee.yy",},
     {"name":"business_2","order":1,"path":"sounds/business_2/business_2.yy",},
     {"name":"snd_business_2","order":1,"path":"sounds/snd_business_2/snd_business_2.yy",},
     {"name":"Sback","order":20,"path":"sprites/Sback/Sback.yy",},
