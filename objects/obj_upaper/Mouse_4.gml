@@ -13,7 +13,7 @@ if (obj_controller.money >= cost) {
         obj_controller.money_per_second += bonus;
     }
 	
-    amount_bought += 1;
+    amount_bought += 3;
     cost = round(cost * 1.15);
 	
 	if (!sprite_changed) {

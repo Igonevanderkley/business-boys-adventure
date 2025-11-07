@@ -3,7 +3,7 @@ if (obj_controller.money >= cost_to_rebirth) {
     obj_controller.money_per_second = 1;
 	obj_controller.money_per_click = 1
 
-    with (obj_upgrade) {
+    with (obj_upaper) {
     amount = 0;
 }
 

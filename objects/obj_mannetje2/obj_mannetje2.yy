@@ -32,13 +32,15 @@
     {"x":0.0,"y":44.0,},
   ],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_index","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sMannetje2",
-    "path":"sprites/sMannetje2/sMannetje2.yy",
+    "name":"sMannetje2loop",
+    "path":"sprites/sMannetje2loop/sMannetje2loop.yy",
   },
   "spriteMaskId":null,
   "visible":true,
