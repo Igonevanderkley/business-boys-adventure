@@ -1,1 +1,1 @@
-show_message("bla bla bla")
+show_message("Je moet genoeg geld verzamelen om upgrades te kunnen kopen. Upgrades heb je nodig om het spel binnen de tijd te voltooien")

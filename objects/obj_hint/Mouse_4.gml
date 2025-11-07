@@ -1,1 +1,1 @@
-show_message("bla bla bla bla")
+show_message("💡 Hint: Denk aan een opleiding die zowel over bedrijven als over technologie gaat")
