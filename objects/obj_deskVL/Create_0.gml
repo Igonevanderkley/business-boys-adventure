@@ -1,2 +1,4 @@
-/// CREATE EVENT OF obj_deskVR / obj_deskVL
-upgrade_level = 0; // desk starts unupgraded
+base_sprite = sDeskVL0; // or whatever its starting sprite is
+sprite_index = base_sprite;
+upgrade_level = 0;
+sprite_changed = false;

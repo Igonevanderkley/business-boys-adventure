@@ -59,3 +59,15 @@ if (obj_controller.money >= cost_to_rebirth) {
 with (obj_mannetje1) visible = false;
 with (obj_mannetje2) visible = false;
 with (obj_mannetje3) visible = false;
+
+with (obj_deskVL) {
+    sprite_index = base_sprite;
+    upgrade_level = 0;
+    sprite_changed = false;
+}
+
+with (obj_deskVR) {
+    sprite_index = base_sprite; 
+    upgrade_level = 0;     
+    sprite_changed = false;  
+}
