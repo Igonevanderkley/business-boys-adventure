@@ -3,7 +3,7 @@ if (obj_controller.money >= cost_to_rebirth) {
     obj_controller.money_per_second = 1;
 	obj_controller.money_per_click = 1
 
-    with (obj_us1) {
+    with (obj_u1) {
     amount = 0;
 }
 
@@ -15,3 +15,8 @@ if (obj_controller.money >= cost_to_rebirth) {
 
     show_debug_message("Rebirth! x" + string(obj_controller.rebirth_multiplier) + " income!");
 }
+
+    // --- Change the NPC sprite ---
+    with (obj_businessboy) {
+        sprite_index = sBusinessMan; // replace with the new sprite
+	}

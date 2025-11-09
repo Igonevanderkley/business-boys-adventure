@@ -32,13 +32,15 @@
     {"x":0.0,"y":44.0,},
   ],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_index","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sBusiness_Boy",
-    "path":"sprites/sBusiness_Boy/sBusiness_Boy.yy",
+    "name":"sMannetje3loop",
+    "path":"sprites/sMannetje3loop/sMannetje3loop.yy",
   },
   "spriteMaskId":null,
   "visible":true,
