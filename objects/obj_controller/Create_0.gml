@@ -9,3 +9,7 @@ income_multiplier = 1;
 speed_multiplier = 1;
 rebirth_multiplier = 1; 
 rebirth_count = 0;
+
+upgrade1_purchased = false;
+upgrade2_purchased = false;
+upgrade3_purchased = false;

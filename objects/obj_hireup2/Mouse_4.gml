@@ -3,7 +3,6 @@ if (!visible) exit;
 if (obj_controller.money >= cost) {
     obj_controller.money -= cost;
 	
-
 switch (upgrade_type) {
     case "click":
         obj_controller.money_per_click += bonus;
@@ -17,4 +16,4 @@ switch (upgrade_type) {
     cost = round(cost * 1.2);
 }
 
-obj_controller.upgrade1_purchased = true;
+obj_controller.upgrade2_purchased = true;

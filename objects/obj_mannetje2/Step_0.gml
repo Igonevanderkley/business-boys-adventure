@@ -1,5 +1,5 @@
 /// Step Event
-visible = obj_uibox.visible;
+visible = obj_controller.upgrade2_purchased;
 // Move in current direction up to the point of collision
 move_contact_solid(direction, speed);
 

@@ -17,4 +17,4 @@ switch (upgrade_type) {
     cost = round(cost * 1.2);
 }
 
-obj_controller.upgrade1_purchased = true;
+obj_controller.upgrade3_purchased = true;

@@ -1,4 +1,4 @@
-cost = 10;
-bonus_multiplier = 1.01;
+cost = 12;
+bonus_multiplier = 1.05;
 upgrade_type = "multiplier";
 visible = false;

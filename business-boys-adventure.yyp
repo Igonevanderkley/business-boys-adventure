@@ -52,6 +52,8 @@
     {"id":{"name":"obj_hint","path":"objects/obj_hint/obj_hint.yy",},},
     {"id":{"name":"obj_hire","path":"objects/obj_hire/obj_hire.yy",},},
     {"id":{"name":"obj_hireup","path":"objects/obj_hireup/obj_hireup.yy",},},
+    {"id":{"name":"obj_hireup2","path":"objects/obj_hireup2/obj_hireup2.yy",},},
+    {"id":{"name":"obj_hireup3","path":"objects/obj_hireup3/obj_hireup3.yy",},},
     {"id":{"name":"obj_info_brug","path":"objects/obj_info_brug/obj_info_brug.yy",},},
     {"id":{"name":"obj_info_upgrades","path":"objects/obj_info_upgrades/obj_info_upgrades.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
