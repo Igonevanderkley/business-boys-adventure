@@ -3,9 +3,9 @@ draw_self();
 
 // === Text setup ===
 var text_lines = [
-    "Muis",
-    "Geld:" + string(upgrade_type) + string(bonus),
-    "Kost:" + string(cost)
+    "Muizen",
+    "Bonus:+" + string(bonus) + "/klik",
+    "Kost: " + string(cost)
 ];
 
 // Left-aligned text margin inside the button

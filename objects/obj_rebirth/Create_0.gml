@@ -1,2 +1,2 @@
-cost_to_rebirth = 100;
-bonus_multiplier = 1.15;
+cost_to_rebirth = 10;
+bonus_multiplier = 1.35;

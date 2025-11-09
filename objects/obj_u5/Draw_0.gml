@@ -3,9 +3,9 @@ draw_self();
 
 // === Text setup ===
 var text_lines = [
-    "Bureaustoel",
-    "Geld:" + string(upgrade_type) + string(bonus),
-    "Kost:" + string(cost)
+    "Bureaustoelen",
+    "Bonus:+" + string(bonus) + "/seconde",
+    "Kost: " + string(cost)
 ];
 
 // Left-aligned text margin inside the button
