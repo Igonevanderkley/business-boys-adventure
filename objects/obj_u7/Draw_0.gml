@@ -3,9 +3,9 @@ draw_self();
 
 // === Text setup ===
 var text_lines = [
-    "Spamfilter",
-    "Geld:" + string(upgrade_type) + string(bonus),
-    "Kost:" + string(cost)
+    "Spamfilters",
+    "Bonus:+" + string(bonus) + "/seconde",
+    "Kost: " + string(cost)
 ];
 
 // Left-aligned text margin inside the button

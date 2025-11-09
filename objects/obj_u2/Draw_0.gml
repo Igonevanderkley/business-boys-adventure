@@ -3,10 +3,11 @@ draw_self();
 
 // === Text setup ===
 var text_lines = [
-    "Computer",
-    "Geld:" + string(upgrade_type) + string(bonus),
-    "Kost:" + string(cost)
+    "Computers",
+    "Bonus:+" + string(bonus) + "/seconde",
+    "Kost: " + string(cost)
 ];
+
 
 // Left-aligned text margin inside the button
 var margin_x = x + sprite_width * 0.1; // 10% padding from left

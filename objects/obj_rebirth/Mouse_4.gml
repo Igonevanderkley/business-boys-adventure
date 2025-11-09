@@ -1,7 +1,7 @@
 if (obj_controller.money >= cost_to_rebirth) {
     obj_controller.money = 0;
     obj_controller.money_per_second = 1;
-	obj_controller.money_per_click = 1
+	obj_controller.money_per_click = 1;
 
     with (obj_u1) {
     amount = 0;
