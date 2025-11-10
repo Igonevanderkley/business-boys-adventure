@@ -30,12 +30,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDeskVR",
-    "path":"sprites/sDeskVR/sDeskVR.yy",
+    "name":"sDeskVR0",
+    "path":"sprites/sDeskVR0/sDeskVR0.yy",
   },
   "spriteMaskId":{
-    "name":"sDeskVR",
-    "path":"sprites/sDeskVR/sDeskVR.yy",
+    "name":"sDeskVR0",
+    "path":"sprites/sDeskVR0/sDeskVR0.yy",
   },
   "visible":true,
 }

@@ -1,1 +1,1 @@
-audio_stop_sound(snd_business_1)
+audio_stop_sound(backgroundmusic)

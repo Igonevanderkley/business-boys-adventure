@@ -1,1 +1,1 @@
-audio_play_sound(snd_business_2, 0, true)
+audio_play_sound(backgroundmusic, 0, true)

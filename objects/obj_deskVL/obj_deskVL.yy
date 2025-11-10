@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDeskVL",
-    "path":"sprites/sDeskVL/sDeskVL.yy",
+    "name":"sDeskVL0",
+    "path":"sprites/sDeskVL0/sDeskVL0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

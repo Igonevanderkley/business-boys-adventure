@@ -1,5 +1,5 @@
 /// Step Event
-
+visible = obj_controller.upgrade1_purchased;
 // Move in current direction up to the point of collision
 move_contact_solid(direction, speed);
 
