@@ -1,0 +1,1 @@
+room_goto(story2);

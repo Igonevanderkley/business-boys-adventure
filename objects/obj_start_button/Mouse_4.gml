@@ -1,1 +1,1 @@
-room_goto(brug);
+room_goto(story1);
